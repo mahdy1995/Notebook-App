@@ -1,0 +1,12 @@
+<?php $__env->startSection('content'); ?>
+      <div class="jumbotron">
+          <h1>Notebook</h1>
+          <p>Store and organise your thoughts in notebook and NoteBook web app makes this easier than ever</p>
+          <p>
+              <a class="btn btn-lg btn-primary" href="<?php echo e(route('notebooks.index')); ?>" role="button">Your NoteBooks</a>
+          </p>
+      </div>
+  </div>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
